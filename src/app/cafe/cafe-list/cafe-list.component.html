@@ -1,3 +1,10 @@
-<p>
-  cafe-list works!
-</p>
+<div class="container-fluid">
+  <h1>El aroma mágico</h1>
+  <div class="col-4">
+    <img class="" src="/assets/ubicacion-negro.png" alt="" />
+  </div>
+  <p *ngFor="let cafe of cafes">
+    {{cafe.nombre}}
+  </p>
+
+</div>

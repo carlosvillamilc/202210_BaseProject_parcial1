@@ -16,7 +16,6 @@ export class CafeListComponent implements OnInit {
   getCafes(): void{
     this.cafeService.getCafes().subscribe(cafes=>{
       this.cafes=cafes;
-      console.log(this.cafes);
     });
   }
 

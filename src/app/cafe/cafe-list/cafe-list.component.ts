@@ -19,6 +19,16 @@ export class CafeListComponent implements OnInit {
     });
   }
 
+  sumaTipoCafe(tipoCafe:string):number{
+    let total= 0;
+    for(let i = 0;i<this.cafes.length;i++){
+      if(this.cafes[i].tipo==tipoCafe){
+        total++;
+      }
+    }
+    return total;
+  }
+
   ngOnInit() {
     this.getCafes();
   }

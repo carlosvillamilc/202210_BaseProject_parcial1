@@ -54,5 +54,9 @@ describe('CafeListComponent', () => {
     expect(tableRows.length).toBe(4);
   });
 
+  it("should have an img element ", () => {
+    expect(debug.query(By.css("img")).attributes["alt"]).toEqual("Cafe-principal");
+  });
+
 });
 

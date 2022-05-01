@@ -1,14 +1,14 @@
 <testExecutions version="1">
-  <file path="src/app/cafe/cafe.service.spec.ts">
-    <testCase name="Service: Cafe should ..." duration="12"/>
-  </file>
   <file path="src/app/cafe/cafe-list/cafe-list.component.spec.ts">
-    <testCase name="CafeListComponent should create" duration="46"/>
-    <testCase name="CafeListComponent should have an img element " duration="9"/>
+    <testCase name="CafeListComponent should create" duration="50"/>
+    <testCase name="CafeListComponent should have an img element " duration="8"/>
     <testCase name="CafeListComponent should have an 3 rows + head " duration="7"/>
   </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="8"/>
+    <testCase name="AppComponent should create the app" duration="9"/>
     <testCase name="AppComponent should have as title 'Cafe App'" duration="4"/>
+  </file>
+  <file path="src/app/cafe/cafe.service.spec.ts">
+    <testCase name="Service: Cafe should ..." duration="2"/>
   </file>
 </testExecutions>
